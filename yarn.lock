@@ -1123,6 +1123,11 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+"@types/cldrjs@*":
+  version "0.4.22"
+  resolved "https://registry.yarnpkg.com/@types/cldrjs/-/cldrjs-0.4.22.tgz#24e31cdf15a4ea806ca0a774b024150d1066fea1"
+  integrity sha512-YyzxXZ5s9xwPWznXnI3++X14JGnomDdDAlin7kWZvxX/MzirC9BNFcDSQ0yR8YG2M/xNMn0nXsCGkgbFVyXjGw==
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -1132,6 +1137,13 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
   integrity sha512-OCutwjDZ4aFS6PB1UZ988C4YgwlBHJd6wCeQqaLdmadZ/7e+w79+hbMUFC1QXDNCmdyoRfAFdm0RypzwR+Qpag==
+
+"@types/globalize@^1.5.0":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@types/globalize/-/globalize-1.5.2.tgz#facc6b0e03ae257f9a5c488b74f477eb9fd1e5d6"
+  integrity sha512-h4+lLnsttn12wOuUs0WuVJie5Lg+H/0WMaOSSgwycOOmA2Ukj/fX+GkvNcjw1OY5CtViCCEBc3xClsXInL/r9g==
+  dependencies:
+    "@types/cldrjs" "*"
 
 "@types/hammerjs@^2.0.36":
   version "2.0.36"
@@ -1330,9 +1342,9 @@ acorn@^7.1.1:
   integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
 
 ajv@^6.10.0, ajv@^6.10.2, ajv@^6.5.5:
-  version "6.12.2"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.2.tgz#c629c5eced17baf314437918d2da88c99d5958cd"
-  integrity sha512-k+V+hzjm5q/Mr8ef/1Y9goCmlsK4I6Sm74teeyGvFk1XrOsbsKLjEdrvny42CZ+a8sXbk8KWpY/bDwS+FLL2UQ==
+  version "6.12.6"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
+  integrity sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
   dependencies:
     fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
@@ -1886,6 +1898,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+cldrjs@^0.5.4, cldrjs@^0.5.5:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/cldrjs/-/cldrjs-0.5.5.tgz#5c92ca2de89a8a16dea76cb2dfc4e00104428e52"
+  integrity sha512-KDwzwbmLIPfCgd8JERVDpQKrUUM1U4KpFJJg2IROv89rF172lLufoJnqJ/Wea6fXL5bO6WjuLMzY8V52UWPvkA==
+
 cli-cursor@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
@@ -2209,6 +2226,11 @@ data-urls@^1.0.0:
     abab "^2.0.0"
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
+
+dayjs@^1.10.1:
+  version "1.10.7"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.10.7.tgz#2cf5f91add28116748440866a0a1d26f3a6ce468"
+  integrity sha512-P6twpd70BcPK34K26uJ1KT3wlhpuOAPoMwJzpsIWUxHZ7wpmbdZL/hQqBDfz7hGurYSa5PhzdhDHtt319hL3ig==
 
 dayjs@^1.8.15:
   version "1.8.26"
@@ -2812,9 +2834,9 @@ fancy-log@^1.3.2:
     time-stamp "^1.0.0"
 
 fast-deep-equal@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.1.tgz#545145077c501491e33b15ec408c294376e94ae4"
-  integrity sha512-8UEa58QDLauDNfpbrX55Q9jrGHThw2ZMdOky5Gl1CDtVeJDPVrG4Jxx1N8jw2gkWaff5UUuX1KJd+9zGe2B+ZA==
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
+  integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
 fast-diff@^1.1.1:
   version "1.2.0"
@@ -3114,6 +3136,13 @@ glob@^7.1.1, glob@^7.1.2, glob@^7.1.3:
     minimatch "^3.0.4"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
+
+globalize@^1.6.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/globalize/-/globalize-1.7.0.tgz#321201eb18ded16d3f03c8d4ddbcb5d1edd6d4c2"
+  integrity sha512-faR46vTIbFCeAemyuc9E6/d7Wrx9k2ae2L60UhakztFg6VuE42gENVJNuPFtt7Sdjrk9m2w8+py7Jj+JTNy59w==
+  dependencies:
+    cldrjs "^0.5.4"
 
 globals@^11.1.0:
   version "11.12.0"
@@ -4137,6 +4166,11 @@ jsonify@~0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
   integrity sha1-LHS27kHZPKUbe1qu6PUDYx0lKnM=
+
+jsonpack@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/jsonpack/-/jsonpack-1.1.5.tgz#d42b0dcfd91ac58ef3110f96d2c599404c3dc27c"
+  integrity sha1-1CsNz9kaxY7zEQ+W0sWZQEw9wnw=
 
 jsprim@^1.2.2:
   version "1.4.1"
@@ -5337,10 +5371,34 @@ react-native-gesture-handler@^1.6.1:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
+react-native-globalize@^4.2.1:
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/react-native-globalize/-/react-native-globalize-4.5.1.tgz#5f383c08fefef763163461a7a9ed2b3340caa5f3"
+  integrity sha512-KsSDjVaJroCUJmyBmqavpBr7EfTYfOoyHtxeH/mUyOfCOcM7v/rIoMbET273f6UijHA1HqXsgOoOBC9FFjgzmQ==
+  dependencies:
+    "@types/globalize" "^1.5.0"
+    cldrjs "^0.5.5"
+    dayjs "^1.10.1"
+    globalize "^1.6.0"
+    hoist-non-react-statics "^3.3.2"
+    jsonpack "^1.1.5"
+
+react-native-image-crop-picker@^0.30.0:
+  version "0.30.0"
+  resolved "https://registry.yarnpkg.com/react-native-image-crop-picker/-/react-native-image-crop-picker-0.30.0.tgz#65a450d315abb3558ad40444b8765e4b7a097243"
+  integrity sha512-v0+a6pXndXmPNOjrK/az5ufUR/6DNCyNpJF2MH1K0UuAdgnpiOaDofD7cXQEqHPrKlrXa1peQQBzB21OiTE7yQ==
+
 react-native-iphone-x-helper@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.1.tgz#645e2ffbbb49e80844bb4cbbe34a126fda1e6772"
   integrity sha512-/VbpIEp8tSNNHIvstuA3Swx610whci1Zpc9mqNkqn14DkMbw+ORviln2u0XyHG1kPvvwTNGZY6QpeFwxYaSdbQ==
+
+react-native-multiple-select@^0.5.5:
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/react-native-multiple-select/-/react-native-multiple-select-0.5.7.tgz#4770b465b3d5a14e8120dc4fc8933039ba2a8644"
+  integrity sha512-scVCrOKwGacOYspWa8aINoe+cmMHc5yEMERThUXa04P9VNFWsq9NoQEwLKI+cCXPhe+VMg0+NsoLIhUGTn69fg==
+  dependencies:
+    prop-types "^15.7.2"
 
 react-native-ratings@^6.5.0:
   version "6.5.0"
@@ -6540,9 +6598,9 @@ unset-value@^1.0.0:
     isobject "^3.0.0"
 
 uri-js@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/uri-js/-/uri-js-4.2.2.tgz#94c540e1ff772956e2299507c010aea6c8838eb0"
-  integrity sha512-KY9Frmirql91X2Qgjry0Wd4Y+YTdrdZheS8TFwvkbLWf/G5KNJDCh6pKL5OZctEW4+0Baa5idK2ZQuELRwPznQ==
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/uri-js/-/uri-js-4.4.1.tgz#9b1a52595225859e55f669d928f88c6c57f2a77e"
+  integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
 
